@@ -37,7 +37,7 @@
                     if (string.IsNullOrEmpty(name))
                         throw new ArgumentNullException(nameof(name));
                     dir = Path.Combine(dir, $"{name} sources");
-                    IconEx.Factory.Extract(dialog.FileName);
+                    IconFactory.Extract(dialog.FileName);
                     if (!Directory.Exists(dir))
                         throw new PathNotFoundException(dir);
                     if (DirectoryEx.EnumerateFiles(dir, "*.png")?.Any() != true)
