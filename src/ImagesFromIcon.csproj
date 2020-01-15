@@ -12,8 +12,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5D7E567B-89B0-4768-8804-2B77DC929F94}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>IconToImage</RootNamespace>
-    <AssemblyName>IconToImage</AssemblyName>
+    <RootNamespace>ImagesFromIcon</RootNamespace>
+    <AssemblyName>ImagesFromIcon</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IconToImage.Program</StartupObject>
+    <StartupObject>ImagesFromIcon.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\Symbol.ico</ApplicationIcon>

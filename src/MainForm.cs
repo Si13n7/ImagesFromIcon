@@ -1,4 +1,4 @@
-﻿namespace IconToImage
+﻿namespace ImagesFromIcon
 {
     using System;
     using System.Diagnostics;

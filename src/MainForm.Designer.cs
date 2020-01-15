@@ -1,4 +1,4 @@
-﻿namespace IconToImage
+﻿namespace ImagesFromIcon
 {
     partial class MainForm
     {
